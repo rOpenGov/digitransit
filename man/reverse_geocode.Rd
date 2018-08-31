@@ -4,7 +4,8 @@
 \alias{reverse_geocode}
 \title{Reverse geocode a geographical location}
 \usage{
-reverse_geocode(lon = "24.95126", lat = "60.15948", hits = 1)
+reverse_geocode(lon = "24.95126", lat = "60.15948", hits = 1,
+  host = "https://api.digitransit.fi/geocoding")
 }
 \arguments{
 \item{lon}{longitute}
@@ -12,6 +13,8 @@ reverse_geocode(lon = "24.95126", lat = "60.15948", hits = 1)
 \item{lat}{A latitude}
 
 \item{hits}{Number of hits returned}
+
+\item{host}{Define host, for instance \code{http://localhost:3100} if running docker container locally}
 }
 \value{
 Data frame with information about the point

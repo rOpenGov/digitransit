@@ -4,12 +4,15 @@
 \alias{geocode}
 \title{Geocode a place name or an address}
 \usage{
-geocode(string = "helsinki", hits = 1)
+geocode(string = "helsinki", hits = 1,
+  host = "https://api.digitransit.fi/geocoding")
 }
 \arguments{
 \item{string}{plane name or an address}
 
 \item{hits}{Number of hits returned}
+
+\item{host}{Define host, for instance \code{http://localhost:3100} if running docker container locally}
 }
 \value{
 Data frame with latitude and longitude of the place

@@ -3,12 +3,13 @@
 #' @param lon longitute
 #' @param lat A latitude
 #' @param hits Number of hits returned
+#' @param host Define host, for instance \code{http://localhost:3100} if running docker container locally
 #' @return Data frame with information about the point
 #' @examples
 #' reverse_geocode(lon = "24.95126", lat = "60.15948", hits = 1)
 
-reverse_geocode <- function(lon = "24.95126", lat = "60.15948", hits = 1) {
-  resp <- httr::GET(paste0("https://api.digitransit.fi/geocoding/v1/reverse?point.lat=",lat,"&point.lon=",lon,"&size=",hits))
+reverse_geocode <- function(lon = "24.95126", lat = "60.15948", hits = 1, host = "https://api.digitransit.fi/geocoding") {
+  resp <- httr::GET(paste0(host,"/v1/reverse?point.lat=",lat,"&point.lon=",lon,"&size=",hits))
   # print("Hello, world!")
   tmp <- jsonlite::fromJSON(content(resp, "text"), simplifyVector = FALSE)
   dat <- data.frame(lon = lon,
