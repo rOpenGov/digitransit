@@ -7,7 +7,7 @@ API documentation: https://digitransit.fi/en/developers/apis/2-geocoding-api/
 Install
 
 ```r
-devtools::install_git("https://gitlab.com/muuankarski/digitransit")
+remotes::install_git("https://github.com/ropengov/digitransit")
 ```
 
 Use
