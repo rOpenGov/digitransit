@@ -44,7 +44,7 @@ jobs:
           #tools::resaveRdaFiles("data")
           tools::resaveRdaFiles("R")
           styler::style_pkg(filetype = c("R", "Rmd"))
-          urlchecker::url_update()
+          #urlchecker::url_update()
           #devtools::build_readme()
           roxygen2::roxygenise()
         shell: Rscript {0}

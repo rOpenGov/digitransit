@@ -1,5 +1,13 @@
-R client for digitransit.fi API
-==========================================
+# digitransit <a href='https://ropengov.github.io/digitransit/'><img src='man/figures/logo.png' align="right" height="139" /></a>
+
+<!-- badges: start -->
+
+[![rOG-badge](https://ropengov.github.io/rogtemplate/reference/figures/ropengov-badge.svg)](http://ropengov.org/)
+[![R build
+status](https://github.com/rOpenGov/digitransit/workflows/R-CMD-check/badge.svg)](https://github.com/rOpenGov/digitransit/actions)
+<!-- badges: end -->
+
+## R client for digitransit.fi API
 
 API documentation: https://digitransit.fi/en/developers/apis/2-geocoding-api/
 

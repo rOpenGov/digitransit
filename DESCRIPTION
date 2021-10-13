@@ -4,12 +4,12 @@ Title: A client for digitransit API services
 Version: 0.1.1
 Author: Markus Kainu
 Maintainer: Markus Kainu <markus.kainu@kapsi.fi>
-Description: Geocode and reverse geocode addresses and poinst in Finland
-License: MIT
+Description: Geocode and reverse geocode addresses and poinst in Finland.
+License: MIT + file LICENSE
 URL: https://ropengov.github.io/digitransit/,
     https://github.com/rOpenGov/digitransit
 BugReports: https://github.com/rOpenGov/digitransit/issues
-Depends: 
+Imports: 
     httr,
     jsonlite
 Encoding: UTF-8
