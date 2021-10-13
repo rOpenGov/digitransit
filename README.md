@@ -34,6 +34,6 @@ digitransit::reverse_geocode(lon = 24.93315, lat = 60.1725)
 
 ```
 
-- (C) Markus Kainu 2018
+- © Markus Kainu 2018
 - License: MIT
 
