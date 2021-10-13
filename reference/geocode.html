@@ -43,7 +43,11 @@
     </div>
 
     <div id="ref-usage" class="ref-usage section level2 sourceCode">
-    <pre class="sourceCode r"><code></code></pre>
+    <pre class="sourceCode r"><code><span class="fu">geocode</span><span class="op">(</span>
+  string <span class="op">=</span> <span class="st">"helsinki"</span>,
+  hits <span class="op">=</span> <span class="fl">1</span>,
+  host <span class="op">=</span> <span class="st">"https://api.digitransit.fi/geocoding"</span>
+<span class="op">)</span></code></pre>
     </div>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments" aria-hidden="true"></a>Arguments</h2>
@@ -60,7 +64,10 @@
     </div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples" aria-hidden="true"></a>Examples</h2>
-    <div class="ref-examples sourceCode"><pre class="sourceCode r"><code></code></pre></div>
+    <div class="ref-examples sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="fu">geocode</span><span class="op">(</span>string <span class="op">=</span> <span class="st">"Eduskuntatalo"</span>, hits <span class="op">=</span> <span class="fl">1</span><span class="op">)</span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>          string      lon      lat                           label</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 Eduskuntatalo 24.93342 60.17327 Eduskuntatalo, Kluuvi, Helsinki</span>
+</code></pre></div>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="sticky-top">
