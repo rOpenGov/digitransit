@@ -1,0 +1,9 @@
+pandoc: 2.7.3
+pkgdown: 1.9000.9000.9000
+pkgdown_sha: b30d04bbce4a3b8406d192f20f0256300ef6c21e
+articles: {}
+last_built: 2021-10-13T20:01Z
+urls:
+  reference: https://ropengov.github.io/digitransit/reference
+  article: https://ropengov.github.io/digitransit/articles
+
