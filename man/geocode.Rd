@@ -4,8 +4,11 @@
 \alias{geocode}
 \title{Geocode a place name or an address}
 \usage{
-geocode(string = "helsinki", hits = 1,
-  host = "https://api.digitransit.fi/geocoding")
+geocode(
+  string = "helsinki",
+  hits = 1,
+  host = "https://api.digitransit.fi/geocoding"
+)
 }
 \arguments{
 \item{string}{plane name or an address}

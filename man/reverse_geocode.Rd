@@ -4,8 +4,12 @@
 \alias{reverse_geocode}
 \title{Reverse geocode a geographical location}
 \usage{
-reverse_geocode(lon = "24.95126", lat = "60.15948", hits = 1,
-  host = "https://api.digitransit.fi/geocoding")
+reverse_geocode(
+  lon = "24.95126",
+  lat = "60.15948",
+  hits = 1,
+  host = "https://api.digitransit.fi/geocoding"
+)
 }
 \arguments{
 \item{lon}{longitute}
